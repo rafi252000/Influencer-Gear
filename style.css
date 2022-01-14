@@ -3,4 +3,49 @@
 /* common style */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 120px;
+}
+.IPC-font-size{
+    font-size: 10px;
+}
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-size: 1.3em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Top-div{
+    display: flex;
+    margin-top: 30px;
+}
+.Top-div-h1{
+    font-size: 50px;
+}
+.top-div1{
+    width: 50%;
+    
+}
+button{
+    background-color: #E02C6D;
+    color: white;
+    width: 196px;
+    height: 44px;
+    border-radius: 20px;
+    border: 0;
+}
+.logo{
+    padding: 20px;
+    border: 1px ;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.logo img{
+    margin-right: 30px;
 }
