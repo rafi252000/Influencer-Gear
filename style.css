@@ -3,11 +3,14 @@
 /* common style */
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 5%;
+    margin: 3px;
     background-color: whitesmoke;
 }
+.First-vew, .common-part{
+    margin: 30px;
+}
 .IPC-font-size{
-    font-size: 10px;
+    font-size: 25px;
 }
 nav a {
     text-decoration: none;
@@ -40,8 +43,16 @@ button{
     border: 0;
 }
 .top-image{
-    margin-left:3px;
+    margin: 0 auto;
+    background-color: rgb(229, 234, 235);
+    transition: width 1s, height 1s,transform 1s ;
+    border-radius: 100%;
 }
+.top-image:hover{
+    
+    transform: rotate(180deg);
+}
+
 .logo{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -82,10 +93,14 @@ button{
     padding: 15px;
     margin: 15px;
 }
+.Collection img{
+    width: 100%;
+}
 .see-more a{
     text-decoration: none;
-    color:#E02C6D ;
-    justify-content: space-between;
+    color:#E02C6D;
+    position: absolute;
+    right: 0;
 
 }
 .footer-bg{
@@ -93,6 +108,7 @@ button{
     width: 100%;
     height: 240px;
     padding: 3px;
+    margin: none;
     
 }
 .all-text{
@@ -108,19 +124,7 @@ button{
 }
 /* Media Queries */
 /* Mobail Devaices */
-/* @media only screen and (max-width:688px) {
-    .Container, .common-part{
-        width: 100%;
-
-    }
-    .Top-div, .logo, .Collection{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .top-div1, .logo{
-        flex-direction: column;
-    }
-} */
-@media only screen and (max-width:688px){
+@media only screen and (max-width:576px){
     .Container, .common-fart{
         width: 100%;
     }
@@ -130,5 +134,27 @@ button{
     .Top-div{
         flex-direction: column;
     }
+    .nav{
+        display: none;
+    }
+    .IPC-font-size{
+        font-size: 10px;
+    }
+    .Collection img{
+        width: 70%;
+    }
+    .top-image img{
+        width: 80%;
+    }
+/* Tablait Devaices */
+@media only screen and (min-width:577px) and (max-width:768px) {
+    .Container, .common-fart{
+        width: 100%;
+    }
+    .Top-div, .logo, .Container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Top-div{
+        flex-direction: column;
+    }
 }
-    
