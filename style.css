@@ -184,8 +184,9 @@ button{
     .top-image img{
         width: 80%;
     }
+}
 /* Tablait Devaices */
-@media only screen and (min-width:577px) and (max-width:768px) {
+ @media only screen and (min-width:577px) and (max-width:768px){
     .Container, .common-fart{
         width: 100%;
     }
