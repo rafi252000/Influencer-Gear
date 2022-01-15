@@ -79,3 +79,19 @@ button{
     padding: 15px;
     margin: 15px;
 }
+.see-more{
+    text-decoration: none;
+    color:#E02C6D ;
+    text-align: right;
+
+}
+.footer-bg{
+    background-color: #0A0826;
+    height: 240px;
+    padding: 5px;
+    
+}
+.fo-te{
+    color: white;
+    text-align: center;
+}
