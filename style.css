@@ -135,11 +135,10 @@ button{
     text-decoration: none;
     background-color: #E02C6D;
     color: white;
-    width: 196px;
     height: 30px;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 0;
-    padding: 30px;
+    padding: 15px;
 }
 .footer-bg{
     background-color: #0A0826;
